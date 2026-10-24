@@ -751,7 +751,7 @@ if($('#ai-f').checked)await $('#ai-fx').onclick();
 if($('#ai-j').checked)await $('#ai-dj').onclick();
 pg(1);ph=0;draw();toast('✔ AI finished — press ▶ Play result')});
 })();
-</script>/* ===== NAOL STUDIO · ADD-ON v1 (paste right before </script></body></html>) =====
+</script>/* ===== NAOL STUDIO · ADD-ON v1 (paste at the very end of your last script) =====
    Only adds. Nothing above is edited or removed.
    - Sound picker pops up when Keyboard / Guitar opens (20 sounds)
    - Sound FX tab: 50 effects (claps, hand, percussion, electronic, nature)
@@ -889,4 +889,4 @@ const _m=mixA;mixA=function(r){_m(r);r.tr.forEach((x,i)=>x.bf&&(x.bf.gain.value=
 document.querySelectorAll('#mix .row').forEach((d,i)=>{d.insertAdjacentHTML('beforeend','<label>Bass<input type="range" min="-12" max="15" step=".5" value="0"></label>');const s=d.lastChild.querySelector('input');s.oninput=()=>{T[i].bass=+s.value;R&&mixA(R)}});
 tbr();
 })();
-                                                                                                                                                            </body></html>
+</body></html>
